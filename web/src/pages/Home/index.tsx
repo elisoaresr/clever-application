@@ -7,8 +7,8 @@ const Home = () => {
   return (
     <div id="page-home">
       <div className="content">
-        <header>
-          <img src={logo} alt="clever" />
+        <header className="header">
+          <img src={logo} alt="logo" />
         </header>
 
         <main>
