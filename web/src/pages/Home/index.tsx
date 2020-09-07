@@ -16,6 +16,9 @@ const Home = () => {
           <p>Ajudamos você trazendo comodidade em suas compras</p>
         </main>
 
+      <div className="footer">
+        <p>Desenvolvido por Eliezer</p>
+      </div>
       </div>
     </div>
   );
