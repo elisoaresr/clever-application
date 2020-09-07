@@ -9,6 +9,16 @@ const Home = () => {
       <div className="content">
         <header className="header">
           <img src={logo} alt="logo" />
+            <nav id="menu">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cadastre-se</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Contato</a></li>
+              </ul>
+            </nav>
+
+
         </header>
 
         <main>
