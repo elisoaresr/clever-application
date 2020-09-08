@@ -11,25 +11,24 @@ const Home = () => {
       <div className="content">
         <header className="header">
             <img src={logo} alt="logo" />
-
-            <nav className="menu">
-              <Link to="/">
-               <span>Início</span> 
-            </Link>
-              <Link to="/">
-              <span>Serviços</span> 
-            </Link>
-              <Link to="/">
-              <span>Sobre nós</span> 
-            </Link>
-              <Link to="/">
-              <span>Contato</span> 
-            </Link>
-            </nav>
+              <nav className="menu">
+                <Link to="/">
+                <span>Início</span> 
+              </Link>
+                <Link to="/">
+                <span>Serviços</span> 
+              </Link>
+                <Link to="/">
+                <span>Sobre nós</span> 
+              </Link>
+                <Link to="/">
+                <span>Contato</span> 
+              </Link>
+              </nav>
         </header>
 
         <main>
-          <h1>Seu mercado inteligente</h1>
+          <h1>Sua plataforma de entrega inteligente</h1>
           <p>Ajudamos você trazendo comodidade em suas compras</p>
         </main>
 

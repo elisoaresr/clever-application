@@ -3,10 +3,10 @@
 }
 
 .content img {
-    width: 225px;
-    height: 90px;
-    margin-top: 10px;
-    margin-left: 15px;
+    width: 150px;
+    height: 55px;
+    margin-top: 3px;
+    margin-left: 25px;
 }
 
 #page-home main {
@@ -21,17 +21,18 @@
 
 header.header {
     width: 100%;
-    height: 110px;
+    height: 60px;
     box-shadow: var(--shadow);
 }
 
 .menu {
-    float: right;
-    text-decoration: none;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
 }
 
 .menu a {
-    margin: 4px;
+    margin: 5px;
     color: black;
     text-decoration: none;
   }
