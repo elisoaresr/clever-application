@@ -25,13 +25,13 @@ header.header {
     box-shadow: var(--shadow);
 }
 
-.items-grid {
+.items-grid-a{
     margin-top: -50px;
     display: flex;
     justify-content: center;
 }
 
-.items-grid a {
+.items-grid-a a {
     margin: 5px;
     color: black;
     text-decoration: none;
