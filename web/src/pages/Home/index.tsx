@@ -10,19 +10,8 @@ const Home = () => {
       <div className="content">
         <header className="header">
             <img src={logo} alt="logo" />
-              <nav className="menu">
-                <Link to="/">
-                <span>Empresa</span> 
-              </Link>
-                <Link to="/">
-                <span>Serviços</span> 
-              </Link>
-                <Link to="/">
-                <span>Sobre nós</span> 
-              </Link>
-                <Link to="/">
-                <span>Contato</span> 
-              </Link>
+              <nav className="items-grid">
+                
               </nav>
         </header>
 
@@ -32,7 +21,7 @@ const Home = () => {
         </main>
 
         <div className="footer">
-          <p>Desenvolvido por Eliezer</p>
+          <p>© 2020 Clever Technologies Inc</p>
         </div>
       </div>
     </div>
