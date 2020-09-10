@@ -1,9 +1,8 @@
 import React from 'react';
 import './styles.css';
 
-import logo from '../../assets/logo.png';
-
 import { Link } from 'react-router-dom';
+import logo from '../../assets/logo.png';
 
 const Home = () => {
   return (
@@ -13,7 +12,7 @@ const Home = () => {
             <img src={logo} alt="logo" />
               <nav className="menu">
                 <Link to="/">
-                <span>Início</span> 
+                <span>Empresa</span> 
               </Link>
                 <Link to="/">
                 <span>Serviços</span> 
