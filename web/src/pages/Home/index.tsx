@@ -14,34 +14,13 @@ const Home = () => {
              Nível 1
              submenu
             <ul className="sub-menu clearfix">
-                <li><a href="#">Sub</a>
-                     Nível 2
-                     submenu do submenu
-                    <ul className="sub-menu">
-                    <li><a href="#">Sub Sub</a>
-                             Nível 3
-                             submenu do submenu do submenu
-                            <ul className="sub-menu">
-                        <li><a href="#">Sub Sub</a></li>
-                        <li><a href="#">Sub Sub</a></li>
-                        <li><a href="#">Sub Sub</a></li>
-                        <li><a href="#">Sub Sub</a></li>
-                        <li><a href="#">Sub Sub</a></li>
-                      </ul> submenu do submenu do submenu
-                        </li>
-                    <li><a href="#">Sub Sub</a></li>
-                    <li><a href="#">Sub Sub</a></li>
-                    <li><a href="#">Sub Sub</a></li>
-                    <li><a href="#">Sub Sub</a></li>
-                  </ul> submenu do submenu
-                </li>
-                <li><a href="#">Sub</a></li>
-                <li><a href="#">Sub</a></li>
-                <li><a href="#">Sub</a></li>
-                <li><a href="#">Sub</a></li>
-                <li><a href="#">Sub</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Como o clever Funciona?</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Carreiras</a></li>
+                <li><a href="#">Investidores</a></li>
               </ul> submenu
-        </li>
+            </li>
             <li><a href="#">Segurança</a></li>
             <li><a href="#">Ajuda</a></li>
             <li><a href="#">COVID-19 (Recursos)</a></li>
