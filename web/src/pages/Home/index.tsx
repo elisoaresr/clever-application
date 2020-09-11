@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles.css';
 
-import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png';
 
 const Home = () => {
@@ -9,28 +8,44 @@ const Home = () => {
     <div id="page-home">
       <div className="content">
         <header className="header">
-          <img src={logo} alt="logo" />
-          <nav className="items-grid-a">
-            <ul className="menu-c1">
-              <li><a href="#">Empresa</a></li>
-              <ul>
-                <li><a href="#">Quem somos</a></li>
-                <li><a href="#">Como o Clever funciona?</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Carreiras</a></li>
-                <li><a href="#">Relação com Investidores</a></li>
-              </ul>
-            </ul>
-            <ul className="menu-c2">
-              <li><a href="#">Segurança</a></li>
-            </ul>
-            <ul className="menu-c3">
-              <li><a href="#">Ajuda</a></li>
-            </ul>
-            <ul className="menu-c4">
-              <li><a href="#">Covid-19 (Recursos)</a></li>
-            </ul>
-          </nav>
+
+          <ul className="menu clearfix">
+            <li><a href="#">Empresa</a>
+             Nível 1
+             submenu
+            <ul className="sub-menu clearfix">
+                <li><a href="#">Sub</a>
+                     Nível 2
+                     submenu do submenu
+                    <ul className="sub-menu">
+                    <li><a href="#">Sub Sub</a>
+                             Nível 3
+                             submenu do submenu do submenu
+                            <ul className="sub-menu">
+                        <li><a href="#">Sub Sub</a></li>
+                        <li><a href="#">Sub Sub</a></li>
+                        <li><a href="#">Sub Sub</a></li>
+                        <li><a href="#">Sub Sub</a></li>
+                        <li><a href="#">Sub Sub</a></li>
+                      </ul> submenu do submenu do submenu
+                        </li>
+                    <li><a href="#">Sub Sub</a></li>
+                    <li><a href="#">Sub Sub</a></li>
+                    <li><a href="#">Sub Sub</a></li>
+                    <li><a href="#">Sub Sub</a></li>
+                  </ul> submenu do submenu
+                </li>
+                <li><a href="#">Sub</a></li>
+                <li><a href="#">Sub</a></li>
+                <li><a href="#">Sub</a></li>
+                <li><a href="#">Sub</a></li>
+                <li><a href="#">Sub</a></li>
+              </ul> submenu
+        </li>
+            <li><a href="#">Segurança</a></li>
+            <li><a href="#">Ajuda</a></li>
+            <li><a href="#">COVID-19 (Recursos)</a></li>
+          </ul>
         </header>
 
         <main>
