@@ -29,11 +29,13 @@
     visibility: hidden;
     overflow: hidden;
 }
+
 .menu,
 .sub-menu {
     list-style: none;
     background: #000;
 }
+
 .sub-menu {
     background: #444;
 }
