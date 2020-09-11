@@ -1,4 +1,4 @@
-## What is clever?
+## What is the clever?
 
 Clever is a new concept based on intelligent delivery with the mission of bringing convenience to it's customers.
 
