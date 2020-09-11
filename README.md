@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ### `npm i or install`
 To download the dependencies used in the project. <br />
-The command must be run both inside the "back-end" directory and <br /> on the "front-end".
+The command must be run both inside the "back-end" directory and on the "front-end".
 
 After downloading the dependencies run:
 
