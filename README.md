@@ -15,6 +15,6 @@ After downloading the dependencies run:
 ### `npm start`
 
 It will run the application in development mode. <br />
-Which by default is started at [http: // localhost: 3000] (to view it in the browser).
+Which by default is started at [http://localhost: 3000] (to view it in the browser).
 
 
