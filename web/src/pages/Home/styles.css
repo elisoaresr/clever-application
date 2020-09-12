@@ -21,13 +21,14 @@
 
 .clearfix:after{
     content: '.';
-    display: block;
+    display: flex;
     clear: both;
-    height: 0;
+    height: 30px;
     line-height: 0;
     font-size: 0;
     visibility: hidden;
     overflow: hidden;
+
 }
 
 .menu,
@@ -48,12 +49,15 @@
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 500;
+    
 }
 .menu li {
     position: relative;
+    
 }
 .menu > li {
     float: left;
+    
 }
 .menu > li:hover {
     background: #444;
@@ -68,6 +72,7 @@
 }
 .sub-menu li:hover {
     background: #555;
+
 }
 .sub-menu .sub-menu {
     top: 0;
@@ -81,7 +86,6 @@
     width: 100%;
     background-color: #24292e;
 }
-
 
 .footer p {
     float: right;
