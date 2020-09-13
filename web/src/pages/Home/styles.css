@@ -104,7 +104,7 @@
     font-weight: 500;
 }
 .setup li {
-    margin-left: 25px;
+    margin-left: 20px;
     position: relative;
     float: left;  
     right: 80px;
@@ -113,6 +113,11 @@
 .button {
     border-radius: 15px;
     background-color: #fff;
+}
+
+.button:hover {
+    background-color: rgb(195, 195, 195);
+    transition-duration: 700ms;
 }
 
 .button a {
