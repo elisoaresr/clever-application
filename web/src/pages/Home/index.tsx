@@ -17,7 +17,7 @@ const Home = () => {
                   <li><a href="#">Blog</a></li>
                   <li><a href="#">Carreiras</a></li>
                   <li><a href="#">Investidores</a></li>
-                </ul> 
+                </ul>
               </li>
               <li><a href="#">Segurança</a></li>
               <li><a href="#">Ajuda</a></li>

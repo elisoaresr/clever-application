@@ -83,7 +83,41 @@
     top: 0;
     left: 100%;
 }
-  
+
+.c3 {
+    display: flex;
+    position: relative;
+    margin-top: -62px;
+    float: right;
+}
+
+.setup,
+.setup a {
+    list-style: none;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-transform: initial;
+    font-weight: 500;
+}
+
+.setup button {
+    border-radius: 20px;
+}
+
+.setup button a {
+    font-weight: 600;
+    color: black;    
+}
+
+.setup li {
+    position: relative;
+    float: left;  
+}
+
 .footer {
     position: absolute;
     bottom: 0;
