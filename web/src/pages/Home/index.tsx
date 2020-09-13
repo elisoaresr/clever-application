@@ -28,7 +28,7 @@ const Home = () => {
             <ul className="setup">
               <li><a href="#">Serviços</a></li>
               <li><a href="#">Fazer login</a></li>
-              <button><a href="#">Cadastre-se</a></button>
+              <li className="button"><a href="#">Cadastre-se</a></li>
             </ul>
           </nav>
         </header>

@@ -103,19 +103,21 @@
     text-transform: initial;
     font-weight: 500;
 }
-
-.setup button {
-    border-radius: 20px;
-}
-
-.setup button a {
-    font-weight: 600;
-    color: black;    
-}
-
 .setup li {
+    margin-left: 25px;
     position: relative;
     float: left;  
+    right: 80px;
+}
+
+.button {
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.button a {
+    font-weight: 600;
+    color: black;
 }
 
 .footer {
