@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
+
 import './styles.css';
 
 import 'font-awesome/css/font-awesome.min.css'
@@ -29,7 +31,7 @@ const Home = () => {
               <li><a href="#">Serviços</a></li>
               <li><a href="#">Fazer login</a></li>
               <li className="button"><a href="#">Cadastre-se</a></li>
-            </ul>
+            </ul> 
           </nav>
         </header>
 
