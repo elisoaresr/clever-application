@@ -3,11 +3,14 @@ import './styles.css';
 
 import 'font-awesome/css/font-awesome.min.css'
 
+import logo from '../../assets/logo.png';
+
 const Home = () => {
   return (
     <div id="page-home">
       <div className="content">
         <header className="header">
+          <img src={logo} alt="logo" />
           <nav className="c2">
             <ul className="menu clearfix">
               <li><a href="#">Empresa</a>

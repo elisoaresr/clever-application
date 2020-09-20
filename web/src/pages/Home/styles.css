@@ -3,10 +3,11 @@
 }
 
 .content img {
-    width: 150px;
-    height: 55px;
+    width: 79px;
+    height: 50px;
     margin-top: 3px;
-    margin-left: 25px;
+    margin-left: 35px;
+    position: absolute;
 }
 
 #page-home main {
@@ -104,10 +105,10 @@
     font-weight: 500;
 }
 .setup li {
-    margin-left: 25px;
+    margin-left: 20px;
     position: relative;
     float: left;  
-    right: 80px;
+    right: 35px;
 }
 
 .button {
