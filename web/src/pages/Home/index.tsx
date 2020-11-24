@@ -39,6 +39,10 @@ const Home = () => {
         <main>
           <h1>Sua plataforma de entrega inteligente</h1>
           <p>Ajudamos você trazendo comodidade em suas compras</p>
+          <form>
+            
+
+          </form>
         </main>
 
         <div className="footer">
